@@ -1,4 +1,4 @@
-# Composite Laboratorio
+# Composite Laboratorio 2
 
 Implementación del patrón Composite en Java para simular un sistema de archivos.
 
