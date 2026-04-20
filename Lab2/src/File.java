@@ -1,0 +1,18 @@
+class File extends FileSystemComponent {
+    private int size;
+
+    public File(String name, int size) {
+        super(name);
+        this.size = size;
+    }
+
+    @Override
+    public int getSize() {
+        return size;
+    }
+
+    @Override
+    public void show(String indent) {
+        System.out.println(indent + "- " + name + " (" + size + " kb)");
+    }
+}
